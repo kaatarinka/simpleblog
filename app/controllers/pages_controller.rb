@@ -4,4 +4,9 @@ class PagesController < ApplicationController
         @text = 'Немного текста'
 
     end
+
+    def authorization
+        @heading = "User"
+        @text = "pass"
+    end
 end

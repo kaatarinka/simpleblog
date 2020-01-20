@@ -17,8 +17,10 @@
   <nav class="my-2 my-md-0 mr-md-3">
     <span class="p-2 text-dark"><%= link_to "Главная страница", home_path %></span>
     <span class="p-2 text-dark"><%= link_to "Про нас", about_path %></span>
+  
   </nav>
   <span class="p-2 text-dark"><%= link_to "Добавление поста", new_post_path %></span>
+    <span class="p-2 text-dark"><%= link_to "Авторизация", authorization_path%></span>
 </div>
 <div class="container">
     <%= yield %>
