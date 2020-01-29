@@ -1,3 +1,17 @@
 <h1>Авторизация</h1>
-<h4><%= @heading %></h4>
-<p><%= @text %></p>
+<h1><%= @authorization.title %></h1>
+<p><%= @authorization.body%></p>
+
+<h2>Добавление нового пользователя</h2>
+<p>
+Имя пользователя <br>
+<%= f.text_field(:title, {:class=> 'form-control'}) %>
+</p>
+<p>
+Пароль <br>
+<%= f.text_area(:body, {:class=> 'form-control'}) %>
+</p>
+<p>
+<%= f.submit({:class=> 'btn btn-success'}) %>
+</p>
+

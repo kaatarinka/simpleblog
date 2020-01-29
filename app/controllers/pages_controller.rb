@@ -5,8 +5,4 @@ class PagesController < ApplicationController
 
     end
 
-    def authorization
-        @heading = "User"
-        @text = "pass"
-    end
 end
